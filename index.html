@@ -1,20 +1,26 @@
-<!doctype html>
-<html dir="ltr" lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>タイトル</title>
-  </head>
-  <body>
-    <h1>タイトル</h1>
-    <p>テスト</p>
-    <select class="form-select" required aria-label="select example" name="number" size="1">
-        <option value="">-選択してください-</option>
-        <option value="one">1</option>
-        <option value="two">2</option>
-        <option value="three">3</option>
-    </select>
-    <button id="submit">決定</button>
-    <p id="setnumber">が選択されました。</p>
-  </body>
-  <script type="text/javascript" src="index.js"></script>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>サンプル</title>
+</head>
+<body>
+
+<label for="number">選択してください</label>
+<select id="number">
+<option value="">-選択してください-</option>
+<option value="one">1</option>
+<option value="two">2</option>
+<option value="three">3</option>
+</select>
+
+<div>
+<input type="button" value="Check" id="checkButton">
+</div>
+
+<p id="selected"></p>
+
+<script lang="text/js" src="index.js"></script>
+
+</body>
 </html>
